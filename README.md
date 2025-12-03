@@ -9,9 +9,7 @@ Keywords: Cell-cell communication; Compositional data analysis/Coda; Differentia
 
 ## Descriptions
 
-The `simulation` folder contains files for reproducing the simulation studies:
-
-The `DNA_Coda` folder: Files implementing the **proposed method (DNA_Coda)** and its oracle estimator
+Files implementing the **proposed method (DNA_Coda)** and its oracle estimator
 - `dpm.c`: C code for the implementation of DNA_Coda.(Linux: dpm.so, Windows: dpm.dll)
 - `DNA_Coda.R`,: R wrapper function for dpm.c  to implement differential network matrix estimation for compositional data
 - `powerlaw data generation.R`: functions to generate differential network matrix(Power-law graph)
